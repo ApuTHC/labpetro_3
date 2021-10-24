@@ -1,0 +1,495 @@
+body.izq {
+  left: 0;
+}
+
+body.der {
+  right: 0;
+}
+
+body.active {
+  right: 260px;
+  overflow: hidden;
+}
+
+body.active1 {
+  right: 300px;
+}
+
+body.active2 {
+  left: 300px;
+}
+
+.main {
+  width: 100%;
+  min-height: 800px;
+  background-image: url("../images/catalogo/portada/gabinete.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 300ms ease;
+}
+
+.main .elements {
+  height: 100%;
+}
+
+.main .elements .ppal {
+  margin: 0;
+  width: 100%;
+  min-height: 800px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  transition: all 500ms ease;
+  z-index: 1;
+}
+
+.main .elements .ppal .conten {
+  width: 100%;
+  height: 100%;
+  margin-top: 360px;
+  z-index: 9999;
+  transition: all 500ms ease;
+}
+
+.main .elements .ppal .conten h1 {
+  color: white;
+  transition: all 500ms ease;
+  font-size: 2rem;
+}
+
+.main .elements .ppal .conten .but {
+  background: rgba(51, 51, 51, 0.85);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 500ms ease;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.main .elements .ppal .conten .but:hover {
+  color: #f9ae00;
+}
+
+.main .elements .ppal .conten .but.active {
+  color: #f9ae00;
+  pointer-events: none;
+  cursor: default;
+}
+
+.main .elements .ppal #contenido {
+  z-index: 9999;
+  width: 100%;
+}
+
+.main .elements .ppal #contenido #primer {
+  margin-top: 5px;
+}
+
+.main .elements .ppal #contenido #primer::before {
+  content: " ";
+  background: #f9ae00;
+  height: 2px;
+  width: 60vw;
+  display: block;
+  margin: 10px auto 15px;
+}
+
+.main .elements .ppal #contenido #primer #segun {
+  margin-top: 5px;
+}
+
+.main .elements .ppal #contenido #primer #segun::before {
+  content: " ";
+  background: #f9ae00;
+  height: 2px;
+  width: 60vw;
+  display: block;
+  margin: 10px auto 15px;
+}
+
+.main .elements .ppal #contenido #primer #segun .but1 {
+  background-size: 100px;
+  width: 100px;
+  height: 60px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  margin: 5px 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 500ms ease;
+}
+
+.main .elements .ppal #contenido #primer #segun .but2 {
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: #ffffff30;
+  padding-top: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 500ms ease;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.main .elements .ppal #contenido #primer #segun .but2:hover {
+  background-color: rgba(51, 51, 51, 0.4);
+  color: #f9ae00;
+}
+
+.main .elements .ppal #contenido #primer #segun .but2.active {
+  background-color: rgba(51, 51, 51, 0.4);
+  color: #f9ae00;
+}
+
+.main .elements .ppal #contenido #primer #segun #tercer {
+  margin-top: 5px;
+}
+
+.main .elements .ppal #contenido #primer #segun #tercer::before {
+  content: " ";
+  background: #f9ae00;
+  height: 2px;
+  width: 60vw;
+  display: block;
+  margin: 10px auto 15px;
+}
+
+.main .elements .ppal #contenido #primer #segun #tercer .but3 {
+  background: rgba(51, 51, 51, 0.85);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 500ms ease;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.main .elements .ppal #contenido #primer #segun #tercer .but3:hover {
+  color: #f9ae00;
+}
+
+.main .elements .ppal #contenido #primer #segun #tercer .but3.active {
+  color: #f9ae00;
+}
+
+.main .elements aside .btn-catalogo {
+  position: fixed;
+  top: 360px;
+  height: 145px;
+  width: 34px;
+  background: #f9ae00ab;
+  cursor: pointer;
+  z-index: 9999999999999999;
+  transition: all .4s ease;
+  background-repeat: no-repeat;
+}
+
+.main .elements aside .btn-catalogo:hover {
+  background: #f9ae00;
+  background-repeat: no-repeat;
+}
+
+.main .elements aside .btn-catalogo.active.btn-descripcion {
+  background-image: url("../images/geomap/icons/backServices_open.png");
+  left: 300px;
+}
+
+.main .elements aside .btn-catalogo.active.btn-muestra {
+  background-image: url("../images/geomap/icons/backServices_close.png");
+  right: 300px;
+}
+
+.main .elements aside .btn-catalogo.btn-descripcion {
+  left: 0px;
+  background-image: url("../images/geomap/icons/backServices_close.png");
+}
+
+.main .elements aside .btn-catalogo.btn-descripcion .btn-text {
+  transform: rotate(-90deg);
+  margin-top: 101px;
+  font-weight: 300;
+  color: #333;
+}
+
+.main .elements aside .btn-catalogo.btn-muestra {
+  right: 0px;
+  background-image: url("../images/geomap/icons/backServices_open.png");
+}
+
+.main .elements aside .btn-catalogo.btn-muestra .btn-text {
+  transform: rotate(90deg);
+  margin-top: 55px;
+  font-weight: 300;
+  color: #333;
+}
+
+.main .elements aside .sidebar {
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  min-width: 300px;
+  max-width: 300px;
+  transition: all .4s ease;
+  background: #333;
+  color: white;
+  text-align: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.main .elements aside .sidebar-right {
+  right: -300px;
+}
+
+.main .elements aside .sidebar-right.active {
+  right: 0px;
+}
+
+.main .elements aside .sidebar-right .sb-close-r {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+}
+
+.main .elements aside .sidebar-right .sb-close-r:hover span {
+  color: #f9ae00;
+}
+
+.main .elements aside .sidebar-right .sb-close-r span {
+  line-height: 34px;
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.main .elements aside .sidebar-right .img-magnifier-container {
+  position: relative;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main .elements aside .sidebar-right .img-magnifier-container .img-magnifier-glass {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 160px;
+  height: 160px;
+}
+
+.main .elements aside .sidebar-right .img-magnifier-container .fotos {
+  width: 100%;
+  height: auto;
+}
+
+.main .elements aside .sidebar-right .img-magnifier-container h3 {
+  font-size: 1rem;
+}
+
+.main .elements aside .sidebar-right .img-magnifier-container a {
+  color: #f9ae00;
+}
+
+.main .elements aside .sidebar-left {
+  left: -300px;
+  margin: 0;
+  padding: 0;
+}
+
+.main .elements aside .sidebar-left.active {
+  left: 0px;
+}
+
+.main .elements aside .sidebar-left .sb-close-l {
+  position: absolute;
+  top: 29px;
+  right: 10px;
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+}
+
+.main .elements aside .sidebar-left .sb-close-l:hover span {
+  color: #f9ae00;
+}
+
+.main .elements aside .sidebar-left .sb-close-l span {
+  line-height: 34px;
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.main .elements aside .sidebar-left ul .title {
+  padding: 30px 10px 20px 10px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.main .elements aside .sidebar-left ul .title h5 {
+  color: #f9ae00;
+  font-size: 1.5rem;
+}
+
+.main .elements aside .sidebar-left ul .text {
+  padding: 5px 10px 5px 10px;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.main .elements aside .sidebar-left ul .text::after {
+  content: " ";
+  background: #f9ae00;
+  height: 2px;
+  width: 200px;
+  display: block;
+  margin: 10px auto 0px;
+}
+
+.main .elements aside .sidebar-left ul .text b {
+  color: #f9ae00;
+}
+
+footer {
+  position: absolute;
+  transition: all .3s ease;
+}
+
+@media (min-width: 500px) {
+  body.active1 {
+    right: 400px;
+  }
+  body.active2 {
+    left: 400px;
+  }
+  .main .elements .ppal .conten h1 {
+    font-size: 3rem;
+  }
+  .main .elements .ppal .conten .but {
+    font-size: 1.35rem;
+  }
+  .main .elements .ppal #contenido #primer {
+    margin-top: 5px;
+  }
+  .main .elements .ppal #contenido #primer #segun {
+    margin-top: 5px;
+  }
+  .main .elements .ppal #contenido #primer #segun .but1 {
+    background-size: 150px;
+    width: 150px;
+    height: 90px;
+  }
+  .main .elements .ppal #contenido #primer #segun .but2 {
+    font-size: 1.5rem;
+  }
+  .main .elements .ppal #contenido #primer #segun #tercer {
+    margin-top: 5px;
+  }
+  .main .elements .ppal #contenido #primer #segun #tercer .but3 {
+    font-size: 1.5rem;
+  }
+  .main .elements aside .btn-catalogo.active.btn-descripcion {
+    left: 400px;
+  }
+  .main .elements aside .btn-catalogo.active.btn-muestra {
+    right: 400px;
+  }
+  .main .elements aside .sidebar {
+    min-width: 400px;
+    max-width: 400px;
+  }
+  .main .elements aside .sidebar-right {
+    right: -400px;
+  }
+  .main .elements aside .sidebar-left {
+    left: -400px;
+  }
+  .main .elements aside .sidebar-left .sb-close span {
+    line-height: 34px;
+    font-size: 3rem;
+  }
+  .main .elements aside .sidebar-left ul .title {
+    font-size: 1.725rem;
+  }
+  .main .elements aside .sidebar-left ul .text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body.active1 {
+    right: 540px;
+  }
+  .main .elements .ppal .conten {
+    margin-top: 140px;
+  }
+  .main .elements .ppal .conten h1 {
+    font-size: 3.2rem;
+  }
+  .main .elements .ppal #contenido #primer {
+    margin-top: 5px;
+  }
+  .main .elements .ppal #contenido #primer #segun {
+    margin-top: 5px;
+  }
+  .main .elements .ppal #contenido #primer #segun .but1 {
+    background-size: 150px;
+    width: 150px;
+    height: 90px;
+  }
+  .main .elements .ppal #contenido #primer #segun .but2 {
+    font-size: 1.7rem;
+  }
+  .main .elements .ppal #contenido #primer #segun #tercer {
+    margin-top: 5px;
+  }
+  .main .elements .ppal #contenido #primer #segun #tercer .but3 {
+    font-size: 1.7rem;
+  }
+  .main .elements aside .btn-catalogo.active.btn-muestra {
+    right: 540px;
+  }
+  .main .elements aside .sidebar-right {
+    max-width: 540px;
+    width: 540px;
+    right: -540px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main {
+    height: 96vh;
+  }
+  .main .elements aside .sidebar-left ul .title {
+    font-size: 2rem;
+  }
+  .main .elements aside .sidebar-left ul .text {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=catalogo.css.map */
