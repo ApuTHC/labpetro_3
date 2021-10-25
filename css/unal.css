@@ -1456,6 +1456,11 @@ main .breadcrumb-class span {
 	border-color: #333;
 }
 
+.hovered {
+	background-color: #666;
+	border-color: #333;
+}
+
 body {
 	background-color: #ddd0;
 	font-size: 16px;

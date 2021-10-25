@@ -1,7 +1,9 @@
 $(document).ready(function () {
 
-  alert('Instrumentos proximos a vencer');
-
+  $('.dropdown-item').removeClass("hovered");
+  $('#btn_manual').addClass("hovered");
+  $('#container_mainmenu_mobil .btn-group').removeClass("hovered");
+  $('#container_tools_mobil #btn_manual').addClass("hovered");
   footerTop();
 
   $(window).scroll(function () {
