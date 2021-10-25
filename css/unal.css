@@ -288,6 +288,7 @@ ul.dropdown-menu a:focus {
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 #unalTop .btn-group .btn {
@@ -435,6 +436,8 @@ ul.dropdown-menu a:focus {
 
 #container_servicios_mobil,
 #container_sedes_mobil,
+#container_tools_mobil,
+#container_rutas_mobil,
 #container_profiles_mobil {
 	background-color: #333;
 }
@@ -458,14 +461,25 @@ ul.dropdown-menu a:focus {
 }
 
 #container_servicios_mobil li a,
+#container_tools_mobil li a,
+#container_rutas_mobil li a,
 #container_sedes_mobil li a {
-	color: #fff
+	color: #fff;
 }
 
-#container_profiles_mobil a:hover,
+#container_servicios_mobil li,
+#container_tools_mobil li,
+#container_rutas_mobil li,
+#container_sedes_mobil li {
+	list-style: none;
+}
+
+#container_tools_mobil li a:hover,
+#container_rutas_mobil li a:hover,
 #container_sedes_mobil li a:hover {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
+	background-color: #666;
 }
 
 #container_servicios_mobil li:hover {
@@ -1419,35 +1433,6 @@ footer .logos a img {
 		background-color: transparent;
 		padding: 0;
 	}
-}
-
-.footer-banner {
-	background: url("../img/images/head-footer/navigationBack.png");
-	width: 100%;
-}
-
-.footer-banner .content {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	width: 100%;
-}
-
-.footer-banner .content .logo1 img {
-	height: 50px;
-}
-
-.footer-banner .content .items a {
-	text-align: center;
-	text-decoration: none;
-	font-size: 1.5rem;
-	margin: 0 10px;
-	color: #fff1ce;
-}
-
-.footer-banner .content .items a:hover {
-	color: #422613;
 }
 
 .dropdown-toggle::after {

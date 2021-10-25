@@ -74,8 +74,14 @@ function prepare_content_menu(){
     var $content_buscador = $( "#buscador" ).html();
     $( "#container_buscador_mobil" ).html( $content_buscador );
 
-    var $content_mainmenu = $('#main_menu_container').clone().find(".menu_sedes").remove().end().html()
+    var $content_mainmenu = $('#main_menu_container').clone().find(".menu_sedes").remove().end().find(".menu_tools").remove().end().find(".menu_rutas").remove().end().html()
     $( "#container_mainmenu_mobil" ).html( $content_mainmenu );
+
+    var $conten_tools = $( "#tools" ).html();
+    $( "#container_tools_mobil" ).html( $conten_tools );
+
+    var $conten_rutas = $( "#rutas" ).html();
+    $( "#container_rutas_mobil" ).html( $conten_rutas );
 
     var $conten_sedes = $( "#sedes" ).html();
     $( "#container_sedes_mobil" ).html( $conten_sedes );
