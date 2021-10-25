@@ -876,6 +876,9 @@ footer {
 	font-size: .9em;
 	color: #ddd;
 	padding: 15px 0 25px 0;
+	z-index: 1;
+	position: absolute;
+	transition: all 400ms ease;
 }
 
 footer div.footer-info p {

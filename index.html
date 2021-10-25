@@ -220,14 +220,15 @@
       <div class="navbar-dark mainMenu" id="main_menu_container">
         <!-- Items menú principal -->
         <div class="btn-group">
-            <a href="geomap.html" id="btn_linea" class="btn btn-default">GEOVISOR</a>
-        </div>
-        <div class="btn-group">
-            <a href="catalogo.html" id="btn_catvir" class="btn btn-default">CATÁLOGO DE MUESTRAS</a>
+            <a href="catalogo.html" id="btn_catvir" class="btn btn-default">CATÁLOGO MUESTRAS</a>
         </div>
         <div class="btn-group menu_tools">
             <div class="btn btn-default dropdown-toggle" data-toggle="dropdown">HERRAMIENTAS<span class="caret"></span></div>
             <ul class="dropdown-menu" id="tools">
+                <li>
+                    <a class="dropdown-item" href="geomap.html" id="btn_linea" target="_blank">GEOVISOR</a>
+                    <span class="caret-right"></span>
+                </li>
                 <li>
                     <a class="dropdown-item" href="manual.html" id="btn_manual" target="_blank">MANUAL DE LABORATORIO</a>
                     <span class="caret-right"></span>
@@ -480,13 +481,13 @@
   <!-- /content wrapper for padding -->
 
   <!-- Contenido -->
-  <section class="main-banner">
+  <main class="detalle">
+    <section class="main-banner">
     <!-- Banner Principal -->
     <section class="banner-principal">
         <div class="banner" id="banner"></div>
     </section>
-  </section>
-  <main class="detalle">
+    </section>
     <div class="breadcrumb-class">Está en:<a href="#" id="inicio" target="_self" title="Inicio">Inicio</a><span id="breadcrumb"></span></div>
     <div class="contenido-pagina">
       <!-- Main -->
@@ -693,7 +694,6 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/unal.js"></script>
   <script src="js/main.js"></script>
 
 </body>
