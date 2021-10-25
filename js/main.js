@@ -3,7 +3,7 @@ $(document).ready(function () {
         footerTop();
     }, 50);
     function footerTop() {
-        var aux =$(".contenido-pagina").height()+$(".contenido-pagina").offset().top ;
+        var aux =$(".contenido-pagina").height()+$(".contenido-pagina").offset().top;
         $('footer').css('top',aux);
     }
     

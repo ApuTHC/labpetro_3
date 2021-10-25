@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+  alert('Instrumentos proximos a vencer');
+
   footerTop();
 
   $(window).scroll(function () {
@@ -10,14 +12,15 @@ $(document).ready(function () {
     footerTop();
   });
 
-  function footerTop() {
-    var aux = $('#pdf').innerHeight();
-    if ($(window).width() < 751) {
-      aux = aux + 345
+  $("#pestania-accesibilidad").click(function (e) { 
+    e.preventDefault();
+    setTimeout(() => {
+        footerTop();
+    }, 50);
+  });
 
-    } else {
-      aux = aux + 110
-    }
+  function footerTop() {
+    var aux = $('#pdf').innerHeight()+$("#pdf").offset().top;
     $('footer').css('top', aux);
   }
 
