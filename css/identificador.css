@@ -1,24 +1,54 @@
+main .breadcrumb-class {
+  border-bottom: 1px dotted #d5d0d0;
+  color: #ffffff;
+  margin: 0px 0 0 50px;
+}
+
+.contenido-pagina{
+  position: absolute;
+  top: -90px;
+  width: 100%;
+  z-index: -1;
+}
+
+main.detalle {
+	margin: 0;
+  z-index: 0;
+}
+
 .main {
   width: 100%;
-  min-height: 800px;
+  margin-top: 0px;
+}
+
+.main-banner .banner-principal {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  height: 100vh;
   background-image: url("../images/identificador/portada/laboratorio.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  transition: all 300ms ease;
+  z-index: -10;
+}
+
+.main-banner .banner-principal .banner {
+  background: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  height: 100%;
 }
 
 .main .elements {
   width: 100%;
   height: 100%;
-  background-color: rgba(51, 51, 51, 0.6);
 }
 
 .main .elements .ppal {
   margin: 0;
   width: 100%;
-  min-height: 800px;
+  min-height: 600px;
   padding-bottom: 30px;
   position: absolute;
   top: 0;
@@ -28,7 +58,7 @@
 }
 
 .main .elements .ppal .title {
-  margin: 350px 15px 10px 15px;
+  margin: 140px 15px 10px 15px;
 }
 
 .main .elements .ppal .title h1 {

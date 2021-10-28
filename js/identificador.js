@@ -25,17 +25,21 @@ formaIncoloro3 = ["PrismasLIn3", "RombosIn3", "OtroIn3"],
 formaIncoloro3_n = ["Prismas Largos", "Rombos", "Otro"];
 
 $(document).ready(function () {
-    $('footer').css('top', $('.ppal').innerHeight());
-    $('.main').css('height', $('footer').offset().top);
+    resizePpal1();
     $(window).resize(function (e) { 
         e.preventDefault();
-        $('footer').css('top', $('.ppal').innerHeight());
-        $('.main').css('height', $('footer').offset().top);
+        resizePpal1();
     });
     $(window).scroll(function () { 
-        $('footer').css('top', $('.ppal').innerHeight());
-        $('.main').css('height', $('footer').offset().top);
+        resizePpal1();
     });
+    function resizePpal1() {
+        if ($('.ppal').innerHeight() + $("footer").height() < $(window).height()) {
+            $('footer').css('top', $(".banner").height()-$("footer").height()-30);
+        }else{
+            $('footer').css('top', $('.ppal').innerHeight());
+        }
+    }
     $("#resp").hide();
     $("#resp").width("0%");
     $("#primero").width("100%");
@@ -44,8 +48,11 @@ $(document).ready(function () {
 });
 
 function resizePpal() {
-    $('.main').css('height', $('.ppal').innerHeight());
-    $('footer').css('top', $('.ppal').innerHeight());
+    if ($('.ppal').innerHeight() + $("footer").height() < $(window).height()) {
+        $('footer').css('top', $(".banner").height()-$("footer").height()-30);
+    }else{
+        $('footer').css('top', $('.ppal').innerHeight());
+    }
 }
 
 function Bienvenidos() {
