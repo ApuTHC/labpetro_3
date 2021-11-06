@@ -37,7 +37,7 @@ $(document).ready(function () {
         if ($('.ppal').innerHeight() + $("footer").height() < $(window).height()) {
             $('footer').css('top', $(".banner").height()-$("footer").height()-30);
         }else{
-            $('footer').css('top', $('.ppal').innerHeight());
+            $('footer').css('top', $('.ppal').innerHeight()+$(".ppal").offset().top);
         }
     }
     $("#resp").hide();
@@ -51,7 +51,7 @@ function resizePpal() {
     if ($('.ppal').innerHeight() + $("footer").height() < $(window).height()) {
         $('footer').css('top', $(".banner").height()-$("footer").height()-30);
     }else{
-        $('footer').css('top', $('.ppal').innerHeight());
+        $('footer').css('top', $('.ppal').innerHeight()+$(".ppal").offset().top);
     }
 }
 

@@ -3,8 +3,11 @@ $(document).ready(function () {
         footerTop();
     }, 50);
     function footerTop() {
-        var aux =$(".banner").height()-$("footer").height()-30;
-        $('footer').css('top',aux);
+        if ($('.contenido-pagina').innerHeight() + $("footer").height() < $(window).height()) {
+            $('footer').css('top', $(".banner").height()-$("footer").height() +$(".contenido-pagina").offset().top + 30);
+        }else{
+            $('footer').css('top', $('.contenido-pagina').innerHeight() +$(".contenido-pagina").offset().top + 30);
+        }
     }
     
     $(window).resize(function () { 

@@ -48,7 +48,7 @@ main.detalle {
 .main .elements .ppal {
   margin: 0;
   width: 100%;
-  min-height: 600px;
+  min-height: 550px;
   padding-bottom: 30px;
   position: absolute;
   top: 0;
@@ -226,7 +226,7 @@ footer {
 
 @media (min-width: 768px) {
   .main .elements .ppal .title {
-    margin: 120px 15px 10px 15px;
+    margin: 140px 15px 10px 15px;
   }
   .main .elements .ppal .title h1 {
     font-size: 2.3rem;
@@ -261,7 +261,7 @@ footer {
 
 @media (min-width: 1200px) {
   .main .elements .ppal .title {
-    margin: 130px 15px 10px 15px;
+    margin: 140px 15px 10px 15px;
   }
   .main .elements .ppal .title h1 {
     font-size: 2.4rem;

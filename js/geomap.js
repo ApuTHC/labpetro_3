@@ -767,7 +767,7 @@ function sidebarControl(btn) {
   }
 }
 
-$('.map').css('height', $('footer').offset().top);
+$('.map').css('height', $('footer').offset().top+1);
 $(".sidebar").css('height', $('footer').offset().bottom);
 
 $(window).resize(function () { 
@@ -775,3 +775,32 @@ $(window).resize(function () {
   $(".sidebar").css('height', $('footer').offset().bottom);
 
 });
+
+$(".leaflet-bar").hover(function () {
+  $(".breadcrumb-class").css('margin-top', '-90px');
+      
+}, function () {
+  $(".breadcrumb-class").css('margin-top', 0);
+}
+);
+$(".leaflet-bar").hover(function () {
+  $(".tx-unal-accesibilidad").css('z-index', 0);
+      
+}, function () {
+  $(".tx-unal-accesibilidad").css('z-index', 1);
+}
+);
+$(".out").hover(function () {
+  $(".breadcrumb-class").css('margin-top', '-90px');
+      
+}, function () {
+  $(".breadcrumb-class").css('margin-top', 0);
+}
+);
+$(".out").hover(function () {
+  $(".tx-unal-accesibilidad").css('z-index', 0);
+      
+}, function () {
+  $(".tx-unal-accesibilidad").css('z-index', 1);
+}
+);
