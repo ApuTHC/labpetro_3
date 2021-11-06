@@ -2,14 +2,16 @@ main .breadcrumb-class {
   border-bottom: 1px dotted #d5d0d0;
   color: #ffffff;
   margin: 0px 0 0 50px;
-  transition: all .4s ease;
+  transition: all .6s ease;
 }
 
 .tx-unal-accesibilidad{
   transition: all .4s ease;
 }
 
-
+.overy_not{
+  overflow-y: hidden;
+}
 
 .contenido-pagina{
   position: absolute;
@@ -78,10 +80,12 @@ main.detalle {
 
 .main .elements aside .btn-mapa.active.btn-afloramiento {
   background-image: url("../images/geomap/icons/backServices_open.png");
+  left: 400px;
 }
 
 .main .elements aside .btn-mapa.active.btn-capas {
   background-image: url("../images/geomap/icons/backServices_close.png");
+  right: 400px;
 }
 
 .main .elements aside .btn-mapa.btn-afloramiento {
@@ -133,7 +137,7 @@ main.detalle {
 
 .main .elements aside .sidebar-right .sb-close-r {
   position: absolute;
-  top: 11px;
+  top: 75px;
   left: 10px;
   height: 34px;
   width: 34px;
@@ -297,11 +301,15 @@ main.detalle {
 
 .main .elements aside .sidebar-left .sb-close-l {
   position: absolute;
-  top: 29px;
+  top: 75px;
   right: 10px;
   height: 34px;
   width: 34px;
   cursor: pointer;
+}
+
+.list-unstyled{
+  margin-top: 75px;
 }
 
 .main .elements aside .sidebar-left .sb-close-l:hover span {
@@ -396,13 +404,25 @@ footer{
     height: 96vh;
   }
   .main .elements #basemaps-wrapper {
-    top: 120px;
+    top: 183px;
   }
   .main .elements .leaflet-top .leaflet-control {
-    margin-top: 160px;
+    margin-top: 223px;
   }
   .main .elements aside .btn-mapa {
     top: 300px;
+  }
+  .contenido-pagina{
+    top: -133px;
+  }
+  .sb-close-l{
+    top: 110px !important;
+  }
+  .sb-close-r{
+    top: 110px !important;
+  }
+  .list-unstyled{
+    margin-top: 110px;
   }
 }
 
