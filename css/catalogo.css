@@ -4,12 +4,10 @@ main .breadcrumb-class {
   padding: 0px 0 0 50px;
   margin: 0;
   transition: all .6s ease;
-  background: #00000050;
 }
 
 .tx-unal-accesibilidad{
   transition: all .4s ease;
-  background: #00000050;
 }
 
 .contenido-pagina{
@@ -46,6 +44,7 @@ main.detalle {
 
 .main .elements {
   height: 100%;
+  background: #00000050;
 }
 
 .main .elements .ppal {
@@ -398,15 +397,10 @@ main.detalle {
 footer {
   position: absolute;
   transition: all .3s ease;
+  z-index: -1;
 }
 
 @media (min-width: 500px) {
-  body.active1 {
-    right: 400px;
-  }
-  body.active2 {
-    left: 400px;
-  }
   .main .elements .ppal .conten h1 {
     font-size: 3rem;
   }
@@ -462,26 +456,11 @@ footer {
 }
 
 @media (min-width: 768px) {
-  body.active1 {
-    right: 540px;
-  }
   .contenido-pagina{
     top: -133px;
   }
-  .list-unstyled{
-    margin-top: 100px;
-  }
-  .sb-close-l{
-    top: 105px !important;
-  }
-  .sb-close-r{
-    top: 105px !important;
-  }
-  .img-magnifier-container{
-    margin-top: 150px !important;
-  }
   .main .elements .ppal .conten {
-    margin-top: 140px;
+    margin-top: 190px;
   }
   .main .elements .ppal .conten h1 {
     font-size: 3.2rem;

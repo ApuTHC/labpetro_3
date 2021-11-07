@@ -68,7 +68,10 @@ $(document).ready(function () {
     maxZoom: 18
   });
 
-
+  // L.esri.dynamicMapLayer({
+  //   url: 'http://srvags.sgc.gov.co/arcgis/rest/services/SIMMA/UnidadesGeomorfologicasCache/MapServer/WMTS/',
+  //   opacity: 0.7
+  // }).addTo(map);
 
   if (aux == 0) {
 
@@ -526,14 +529,10 @@ function recarga() {
 
 $(".sb-close-l").click(function () {
   t=0;
-  if (!$('.btn-afloramiento').hasClass('active')) {
-    $('body').attr('class','izq');
-  }
   setTimeout(function(){ sidebarControl('afloramiento') },20);
 });
 
 $(".sb-close-r").click(function () {
-  $('body').attr('class','der');
   sidebarControl('capas');
 });
 
