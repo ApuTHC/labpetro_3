@@ -511,6 +511,13 @@ function cargarlado() {
   $('#descriaflor').html(''+mark2.descrigene);
   $('#descrimacro').html(''+mark2.descrimacro);
   $('#descrimicro').html(''+mark2.descrimicro);
+  if (mark2.recolectors != "---") {
+    $('.gigalink').attr("href", mark2.recolectors);
+    $('.gigalink').attr("target", "_blank");
+  }else{
+    $('.gigalink').attr("href", "#");
+    $('.gigalink').attr("target", "");
+  }
   $("#aflor1").attr('src' , 'images/geomap/' + mark2.cod + '/aflor.jpg');
   $("#aflor2").attr('src' , 'images/geomap/' + mark2.cod + '/aflorzoom.jpg');
   $("#macro1").attr('src' , 'images/geomap/' + mark2.cod + '/macro.jpg');

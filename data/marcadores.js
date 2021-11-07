@@ -132,11 +132,11 @@ var marca = [
   {
 
     "cod": "M-CG-2",
-    "descrigene": "Posición: [6.3445, -75.6714], Descripción del afloramiento.",
+    "descrigene": "Posición: [6.332112, -75.678817], Descripción del afloramiento.",
     "descrimacro": "Stock de Altavista/Cretácico Superior-(SGC): varían desde porfídicas con matriz afanítica y composición andesítica a dioritas, tonalitas y gabros; en los bordes presenta facies gabroides y son comunes zonas de brecha, en los contactos con anfibolita.",
     "descrimicro": "Descripción Microscópica.",
     "nombre": "Afloramiento Stock de Altavista",
-    "pos": "6.3445, -75.6714",
+    "pos": "6.332112, -75.678817",
     "recolectors": "---",
     "tipo": "afloramiento"
 
@@ -145,11 +145,11 @@ var marca = [
   {
 
     "cod": "M-CG-3",
-    "descrigene": "Posición: [6.3462, -75.6804], Descripción del afloramiento.",
+    "descrigene": "Posición: [6.327126, -75.670826], Descripción del afloramiento.",
     "descrimacro": "Grupo Ayurá Montebello/Triásico-(SGC).",
     "descrimicro": "Descripción Microscópica.",
     "nombre": "Afloramiento Grupo Ayurá Montebello",
-    "pos": "6.3462, -75.6804",
+    "pos": "6.327126, -75.670826",
     "recolectors": "---",
     "tipo": "afloramiento"
 
@@ -158,12 +158,12 @@ var marca = [
   {
 
     "cod": "M-CG-4",
-    "descrigene": "Posición: [6.44983, -75.70323], Al costado norte del río Aurrá a unos metros de la carretera, 4 metros de alto por 3 de ancho, Roca Fracturada.",
+    "descrigene": "Posición: [6.4344, -75.70403], Al costado norte del río Aurrá a unos metros de la carretera, 4 metros de alto por 3 de ancho, Roca Fracturada.",
     "descrimacro": "Ortoneis Granítico/Triásico-(SGC)",
     "descrimicro": "Descripción Microscópica.",
     "nombre": "Afloramiento Neis Granítico de Palmitas",
-    "pos": "6.44983, -75.70323",
-    "recolectors": "---",
+    "pos": "6.4344, -75.70403",
+    "recolectors": "http://www.gigapan.com/gigapans/226286",
     "tipo": "afloramiento"
 
   },

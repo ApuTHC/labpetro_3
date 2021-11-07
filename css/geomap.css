@@ -12,6 +12,15 @@ main .breadcrumb-class {
   background: #00000070;
 }
 
+.gigalink{
+  color: #fff;
+}
+
+.gigalink:hover{
+  color: #f9ae00;
+  text-decoration: none;
+}
+
 .overy_not{
   overflow-y: hidden;
 }
@@ -330,6 +339,7 @@ main.detalle {
   padding: 30px 10px 20px 10px;
   font-size: 1.5rem;
   border-bottom: 1px solid #ddd;
+  line-height: 1.7rem;
 }
 
 .main .elements aside .sidebar-left ul .sub-title {
@@ -341,6 +351,7 @@ main.detalle {
 .main .elements aside .sidebar-left ul .sb-text {
   padding: 10px 10px 10px 10px;
   font-size: 1.25rem;
+  line-height: 1.7rem;
 }
 
 .main .elements aside .sidebar-left ul .sb-img {
