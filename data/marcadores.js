@@ -171,12 +171,12 @@ var marca = [
   {
 
     "cod": "M-CG-5",
-    "descrigene": "Posición: [6.452192, -75.746924], Descripción del afloramiento.",
+    "descrigene": "Posición: [6.453807, -75.748426], Descripción del afloramiento.",
     "descrimacro": " Formación Quebradagrande, Miembro Volcánico/Cretácico Inferior-(SGC) :La parte volcánica es toleítica y está compuesta principalmente por espilitas, basaltos y diabasas, con cantidades menores de andesitas, brechas de flujo y tobas.",
     "descrimicro": "Descripción Microscópica.",
     "nombre": "Afloramiento Formación Quebradagrande, Miembro Volcánico",
-    "pos": "6.452192, -75.746924",
-    "recolectors": "---",
+    "pos": "6.453807, -75.748426",
+    "recolectors": "http://www.gigapan.com/gigapans/226293",
     "tipo": "afloramiento"
 
   },
