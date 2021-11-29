@@ -85,7 +85,7 @@ main .breadcrumb-class {
   }
   
   .main .elements .timeline .timeline-main .timeline-item .año {
-    text-shadow: 0.11em 0.11em 0.05em #f9ae00;
+    text-shadow: 0.05em 0.05em 0.05em #f9ae00;
     margin-bottom: 30px;
   }
   
@@ -97,6 +97,7 @@ main .breadcrumb-class {
     font-size: 1.25rem;
     align-self: center;
     line-height: 1.5rem;
+    margin-bottom: 10px;
   }
   
   .main .elements .timeline .timeline-main .timeline-item .descript p {
@@ -106,6 +107,7 @@ main .breadcrumb-class {
   .main .elements .timeline .timeline-main .timeline-item .foto {
     align-self: center;
     transition: all .4s ease;
+    margin-bottom: 10px;
   }
   
   .main .elements .timeline .timeline-main .timeline-item .foto img {
@@ -164,7 +166,7 @@ main .breadcrumb-class {
   }
   
   .main .elements .lineaindice h4 {
-    text-shadow: 3px 3px 0.1em #f9ae00;
+    text-shadow: 1px 1px 0.1em #f9ae00;
     transition: all .4s ease;
     transform: rotate(-90deg);
   }
